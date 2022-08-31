@@ -1,2 +1,4 @@
-## Shell basics ALX
-    This is the repository for the alx shell basics project
+#System engineering devops
+   This repository contains all my ALX projects relating to systems engineering.
+
+- Shell basics project
