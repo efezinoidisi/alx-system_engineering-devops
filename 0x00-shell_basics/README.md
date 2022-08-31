@@ -12,4 +12,8 @@ This directory contains the files for the different tasks in the shell basics pr
 
 - The file 4-listmorefiles contains script that displays the contents of the current directory including the hidden files in a long format.
 
-- The file 5-listfilesdigitonly contains script that displays the contents of the current directory including the hidden files in a long format with the user and group IDs displayed numerically. 
+- The file 5-listfilesdigitonly contains script that displays the contents of the current directory including the hidden files in a long format with the user and group IDs displayed numerically.
+
+- The file 6-firstdirectory contains script that creates a directory named my_first_directory in the /tmp/ directory.
+
+-  
