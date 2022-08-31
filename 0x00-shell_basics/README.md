@@ -34,4 +34,6 @@ This directory contains the files for the different tasks in the shell basics pr
 
 - 100-lets_move contains script that moves all files beginning with an uppercase letter from the current directory to the directory /tmp/u.
 
-- 
+- 101-clean_emacs contains script that deletes all files in the working directory that ends with the character ~.
+
+-  
