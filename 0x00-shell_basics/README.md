@@ -20,4 +20,6 @@ This directory contains the files for the different tasks in the shell basics pr
 
 - The file 8-firstdelete contains script that deletes the file betty with path /tmp/my_first_directory
 
--    
+- The file 9-firstdirdeletion contains script that deletes the directory my_first_directory located in the tmp directory
+
+-     
