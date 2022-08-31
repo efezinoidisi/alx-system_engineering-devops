@@ -2,12 +2,14 @@
 This directory contains the files for the different tasks in the shell basics project.
  
  
--The file 0-current_working_directory contains script that prints the absolute path of the current working directory.
+- The file 0-current_working_directory contains script that prints the absolute path of the current working directory.
 
--The file 1-listit contains script that displays the contents list of the current directory.
+- The file 1-listit contains script that displays the contents list of the current directory.
 
--The file 2-bring_me_home contains script that changes the working directory to the user's home directory.
+- The file 2-bring_me_home contains script that changes the working directory to the user's home directory.
 
--The file 3-listfiles contains script that displays the current directory in a long format
+- The file 3-listfiles contains script that displays the contents of the current directory in a long format
+
+- The file 4-listmorefiles contains script that displays the contents of the current directory including the hidden files in a long format.
 
 - 
