@@ -36,4 +36,6 @@ This directory contains the files for the different tasks in the shell basics pr
 
 - 101-clean_emacs contains script that deletes all files in the working directory that ends with the character ~.
 
--  
+- 102-tree contains script that creates the directories welcome/, welcome/to/ welcome/to/school.
+
+-   
