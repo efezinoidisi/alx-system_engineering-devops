@@ -16,4 +16,6 @@ This directory contains the files for the different tasks in the shell basics pr
 
 - The file 6-firstdirectory contains script that creates a directory named my_first_directory in the /tmp/ directory.
 
--  
+- The file 7-movethatfile contains script that moves the file betty from the tmp directory to my_first_directory.
+
+-   
