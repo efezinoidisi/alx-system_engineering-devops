@@ -22,4 +22,6 @@ This directory contains the files for the different tasks in the shell basics pr
 
 - The file 9-firstdirdeletion contains script that deletes the directory my_first_directory located in the tmp directory
 
--     
+- The file 10-back contains script that changes the working directory to the previous one
+
+-      
