@@ -8,4 +8,6 @@ This directory contains the files for the different tasks in the shell basics pr
 
 -The file 2-bring_me_home contains script that changes the working directory to the user's home directory.
 
- 
+-The file 3-listfiles contains script that displays the current directory in a long format
+
+- 
