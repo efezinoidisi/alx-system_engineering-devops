@@ -30,4 +30,6 @@ This directory contains the files for the different tasks in the shell basics pr
 
 - The file 13-symbolic_link contains script that creates a symbolic link to /bin/ls named __ls__.       
 
+- The file 14-copy_html contains script that copies all html files from the working directory to the parent of the working directory.
+
 - 
