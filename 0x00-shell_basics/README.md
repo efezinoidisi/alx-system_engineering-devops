@@ -24,4 +24,8 @@ This directory contains the files for the different tasks in the shell basics pr
 
 - The file 10-back contains script that changes the working directory to the previous one
 
--      
+- The file
+
+- The file 12-file_type contains script that prints the type of a file named iamafile
+
+-       
