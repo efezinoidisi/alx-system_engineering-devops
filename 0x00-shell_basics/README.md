@@ -32,4 +32,6 @@ This directory contains the files for the different tasks in the shell basics pr
 
 - The file 14-copy_html contains script that copies all html files from the working directory to the parent of the working directory.
 
+- 100-lets_move contains script that moves all files beginning with an uppercase letter from the current directory to the directory /tmp/u.
+
 - 
