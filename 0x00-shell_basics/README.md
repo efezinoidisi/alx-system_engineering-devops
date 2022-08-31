@@ -24,8 +24,10 @@ This directory contains the files for the different tasks in the shell basics pr
 
 - The file 10-back contains script that changes the working directory to the previous one
 
-- The file
+- The file 11-lists contains script that lists all files including hidden files in the current directory, the parent of the working directory and the /boot directory.
 
 - The file 12-file_type contains script that prints the type of a file named iamafile
 
 - The file 13-symbolic_link contains script that creates a symbolic link to /bin/ls named __ls__.       
+
+- 
