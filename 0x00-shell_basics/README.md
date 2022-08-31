@@ -18,4 +18,6 @@ This directory contains the files for the different tasks in the shell basics pr
 
 - The file 7-movethatfile contains script that moves the file betty from the tmp directory to my_first_directory.
 
--   
+- The file 8-firstdelete contains script that deletes the file betty with path /tmp/my_first_directory
+
+-    
