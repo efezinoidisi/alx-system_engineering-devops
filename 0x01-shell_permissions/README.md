@@ -17,4 +17,6 @@ This directory contains my alx shell permissions project task files.
 
 - 7-everybody is a script that adds execute permission to the owner,the group owner and the other users of the file hello
 
+- 8-James_Bond is a script that sets no permission for owner and group owner, and all permissions for other users of the file hello.
 
+- 
