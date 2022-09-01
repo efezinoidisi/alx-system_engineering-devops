@@ -11,4 +11,6 @@ This directory contains my alx shell permissions project task files.
 
 - 4-empty is a script that creates an empty file called hello
 
-- 5-
+- 5-execute is a script that adds execute permission to the owner of the file hello
+
+- 6-
