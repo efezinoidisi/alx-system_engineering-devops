@@ -23,4 +23,6 @@ This directory contains my alx shell permissions project task files.
 
 - 10-mirror_permissions is a script that changes the mode of the file hello to the same mode as file olleh
 
- 
+- 11-directories_permissions is a script that adds execute permission to all subdirectories of the current directory for the owner,group and all other users.
+
+- 
