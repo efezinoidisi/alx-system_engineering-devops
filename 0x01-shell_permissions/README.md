@@ -21,4 +21,6 @@ This directory contains my alx shell permissions project task files.
 
 - 9-John_Doe is a script that adds all permission for owner,read and execute permission for group, write and execute permission for other users of the file hello
 
+- 10-mirror_permissions is a script that changes the mode of the file hello to the same mode as file olleh
+
  
