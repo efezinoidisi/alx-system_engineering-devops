@@ -19,4 +19,6 @@ This directory contains my alx shell permissions project task files.
 
 - 8-James_Bond is a script that sets no permission for owner and group owner, and all permissions for other users of the file hello.
 
-- 
+- 9-John_Doe is a script that adds all permission for owner,read and execute permission for group, write and execute permission for other users of the file hello
+
+ 
