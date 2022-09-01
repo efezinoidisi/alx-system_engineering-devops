@@ -15,4 +15,6 @@ This directory contains my alx shell permissions project task files.
 
 - 6-multiple_permissions is a script that adds execute permission to the owner and the group owner and, and read permission to other users of the file hello
 
-- 7-
+- 7-everybody is a script that adds execute permission to the owner,the group owner and the other users of the file hello
+
+
