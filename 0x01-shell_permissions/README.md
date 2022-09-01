@@ -9,4 +9,6 @@ This directory contains my alx shell permissions project task files.
 
 - 3-new_owner is a script that changes the owner of a file <hello> to the user betty
 
-- 4-
+- 4-empty is a script that creates an empty file called hello
+
+- 5-
