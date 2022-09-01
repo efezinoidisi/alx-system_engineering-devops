@@ -29,4 +29,6 @@ This directory contains my alx shell permissions project task files.
 
 - 13-change_group is a script that changes the group owner of the file hello to school
 
+- 100-change_owner_and_group is a script that changes the owner to vincent and the group owner to staff for all the files and directories in the working directory
 
+- 
