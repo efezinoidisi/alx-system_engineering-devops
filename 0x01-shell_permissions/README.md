@@ -13,4 +13,6 @@ This directory contains my alx shell permissions project task files.
 
 - 5-execute is a script that adds execute permission to the owner of the file hello
 
-- 6-
+- 6-multiple_permissions is a script that adds execute permission to the owner and the group owner and, and read permission to other users of the file hello
+
+- 7-
