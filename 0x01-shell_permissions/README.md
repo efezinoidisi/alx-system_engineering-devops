@@ -25,4 +25,6 @@ This directory contains my alx shell permissions project task files.
 
 - 11-directories_permissions is a script that adds execute permission to all subdirectories of the current directory for the owner,group and all other users.
 
-- 
+- 12-directory_permissions is a script that creates a directory called my_dir with permissions 751 in the working directory
+
+-
