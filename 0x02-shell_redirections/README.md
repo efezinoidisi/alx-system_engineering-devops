@@ -8,4 +8,6 @@ This directory contains script for the shell redirections alx project.
 
 - 2-hellofile is a script that displays the content of the /etc/passwd file
 
+- 3-twofilles is a script that display the content of two files passwd and hosts
+
 - 
