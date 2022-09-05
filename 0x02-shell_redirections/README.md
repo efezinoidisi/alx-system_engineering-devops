@@ -16,4 +16,8 @@ This directory contains script for the shell redirections alx project.
 
 - 6-third_line is a script that displays the third line of the file iacta
 
-  
+- 7-file is a script that 
+
+- 8-cwd_state is a script that writes the output of the commmand ls -la into a file ls_cwd_content
+
+-   
