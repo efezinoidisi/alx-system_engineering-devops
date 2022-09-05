@@ -4,3 +4,4 @@ This repository contains all my ALX projects relating to systems engineering dev
 
 - Shell basics project
 - Shell permissions project
+- Shell re-directions project
