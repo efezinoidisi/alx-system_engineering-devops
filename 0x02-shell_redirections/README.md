@@ -12,4 +12,8 @@ This directory contains script for the shell redirections alx project.
 
 - 4-lastlines is a script that displays the last ten lines of a file passwd
 
--  
+- 5-firstlines is a script that displays the fiirst ten lines of the file passwd
+
+- 6-third_line is a script that displays the third line of the file iacta
+
+  
