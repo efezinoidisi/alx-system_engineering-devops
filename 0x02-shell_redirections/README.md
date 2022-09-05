@@ -10,4 +10,6 @@ This directory contains script for the shell redirections alx project.
 
 - 3-twofilles is a script that display the content of two files passwd and hosts
 
-- 
+- 4-lastlines is a script that displays the last ten lines of a file passwd
+
+-  
