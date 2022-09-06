@@ -18,4 +18,6 @@ This directory contains files for my alx shell variables and expansion projects
 
 - 9-divide_and_rule is a script that prints the result of the division of environment variables POWER and DIVIDE
 
+- 10-love_exponent_breath is a script that displays the result of environment variable BREATH to the power of another environment variable LOVE
+
 
