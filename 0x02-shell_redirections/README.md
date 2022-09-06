@@ -20,4 +20,7 @@ This directory contains script for the shell redirections alx project.
 
 - 8-cwd_state is a script that writes the output of the commmand ls -la into a file ls_cwd_content
 
--   
+-
+- 10-no_more_js is a script that delete all the regular files with a .js extension that are present in the current directory and its subfolders
+
+   
