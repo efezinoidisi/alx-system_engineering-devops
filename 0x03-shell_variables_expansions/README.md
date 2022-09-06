@@ -8,4 +8,6 @@ This directory contains files for my alx shell variables and expansion projects
 
 - 4-global_variables is a script that lists environment variables
 
+- 5-local_variables is a script that lists all local variables, environment variables and functions
+
 
