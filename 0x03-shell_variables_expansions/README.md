@@ -10,4 +10,6 @@ This directory contains files for my alx shell variables and expansion projects
 
 - 5-local_variables is a script that lists all local variables, environment variables and functions
 
+- 6-create_local_variable is a script that creates a new local variable with name BEST and value School
+
 
