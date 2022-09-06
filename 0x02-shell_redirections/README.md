@@ -27,4 +27,6 @@ This directory contains script for the shell redirections alx project.
 
 - 13-unique is a script that accepts a list of words as input and displays only words that appear exactly once
 
--   
+- 14-findthatword is a script that displays lines containing the pattern "root" from the file /etc/passwd
+
+  
