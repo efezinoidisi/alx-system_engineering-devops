@@ -25,4 +25,6 @@ This directory contains script for the shell redirections alx project.
 
 - 12-newest_files is a script that displays the ten newest files in the current directory
 
-   
+- 13-unique is a script that accepts a list of words as input and displays only words that appear exactly once
+
+-   
