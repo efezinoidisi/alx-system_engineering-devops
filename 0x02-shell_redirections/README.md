@@ -35,4 +35,6 @@ This directory contains script for the shell redirections alx project.
 
 - 16-whatsnext is a script that displays lines containing the pattern root and three lines after them in the file /etc/passwd
 
+- 17-hidethisword is a script that displays all the lines that do not contain the pattern bin in the file /etc/passwd
+
   
