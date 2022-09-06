@@ -33,4 +33,6 @@ This directory contains script for the shell redirections alx project.
 
 - 15-count that word is a script that displays the number of lines that contain the pattern "bin" in the file /etc/passwd
 
+- 16-whatsnext is a script that displays lines containing the pattern root and three lines after them in the file /etc/passwd
+
   
