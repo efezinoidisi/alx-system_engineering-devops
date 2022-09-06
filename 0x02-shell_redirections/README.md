@@ -37,4 +37,6 @@ This directory contains script for the shell redirections alx project.
 
 - 17-hidethisword is a script that displays all the lines that do not contain the pattern bin in the file /etc/passwd
 
-  
+- 18-letteronly is a script that displays all lines of the file /etc/ssh/sshd_config starting with a letter
+
+-  
