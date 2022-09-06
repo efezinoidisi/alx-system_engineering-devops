@@ -39,4 +39,6 @@ This directory contains script for the shell redirections alx project.
 
 - 18-letteronly is a script that displays all lines of the file /etc/ssh/sshd_config starting with a letter
 
--  
+- 19-AZ is a script that replaces all characters A and c from input to Z and e respectively
+
+  
