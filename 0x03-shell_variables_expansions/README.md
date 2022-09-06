@@ -20,4 +20,6 @@ This directory contains files for my alx shell variables and expansion projects
 
 - 10-love_exponent_breath is a script that displays the result of environment variable BREATH to the power of another environment variable LOVE
 
+- 13-print_float is a script that prints a number stored in the environment variable NUM with two decimal places followed by a new line
+
 
