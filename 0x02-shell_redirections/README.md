@@ -23,10 +23,12 @@ This directory contains script for the shell redirections alx project.
 -
 - 10-no_more_js is a script that delete all the regular files with a .js extension that are present in the current directory and its subfolders
 
+- 11-directories is a script that counts the number of directories and sub-directories in the current directory
+
 - 12-newest_files is a script that displays the ten newest files in the current directory
 
 - 13-unique is a script that accepts a list of words as input and displays only words that appear exactly once
 
 - 14-findthatword is a script that displays lines containing the pattern "root" from the file /etc/passwd
 
-  
+- 15  
