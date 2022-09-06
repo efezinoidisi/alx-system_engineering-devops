@@ -23,4 +23,6 @@ This directory contains script for the shell redirections alx project.
 -
 - 10-no_more_js is a script that delete all the regular files with a .js extension that are present in the current directory and its subfolders
 
+- 12-newest_files is a script that displays the ten newest files in the current directory
+
    
