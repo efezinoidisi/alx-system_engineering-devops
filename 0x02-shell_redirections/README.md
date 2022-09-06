@@ -45,4 +45,6 @@ This directory contains script for the shell redirections alx project.
 
 - 21-reverse is a script that reverses its input
 
-  
+- 22-empty_casks is a script that finds all empty files and directories in the current directory and all subdirectories
+
+ 
