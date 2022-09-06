@@ -28,4 +28,6 @@ This directory contains files for my alx shell variables and expansion projects
 
 - 13-print_float is a script that prints a number stored in the environment variable NUM with two decimal places followed by a new line
 
+- 14-decimal_to_hexadecimal is a script that converts a number from base 10 to base 16
 
+- 
