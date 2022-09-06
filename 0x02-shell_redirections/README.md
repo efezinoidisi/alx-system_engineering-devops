@@ -43,4 +43,6 @@ This directory contains script for the shell redirections alx project.
 
 - 20-hiago is a script that removes all letters c and C from input
 
+- 21-reverse is a script that reverses its input
+
   
