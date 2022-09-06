@@ -6,6 +6,8 @@ This directory contains files for my alx shell variables and expansion projects
 
 - 1-hello_you is a script that prints hello <user>, where user is the current Linux user
 
+- 2-path is a script that adds '/action' to the PATH
+
 - 4-global_variables is a script that lists environment variables
 
 - 5-local_variables is a script that lists all local variables, environment variables and functions
