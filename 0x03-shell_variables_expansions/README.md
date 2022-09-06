@@ -28,6 +28,10 @@ This directory contains files for my alx shell variables and expansion projects
 
 - 13-print_float is a script that prints a number stored in the environment variable NUM with two decimal places followed by a new line
 
+- 12-combinations is a script that prints all possible combination of two letters from a to  z except oo
+
 - 100-decimal_to_hexadecimal is a script that converts a number from base 10 to base 16
 
-- 
+- 101-rot13 is a script that encodes text using the rot13 encryption
+
+
