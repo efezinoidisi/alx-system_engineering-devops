@@ -47,6 +47,8 @@ This directory contains script for the shell redirections alx project.
 
 - 21-reverse is a script that reverses its input
 
-- 22-empty_casks is a script that finds all empty files and directories in the current directory and all subdirectories
+- 22-users_and_homes is a script that displays all users and their home directoriessorted by users
+
+- 100-empty_casks is a script that finds all empty files and directories in the current directory and all subdirectories
 
  
