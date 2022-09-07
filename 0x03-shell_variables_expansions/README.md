@@ -34,4 +34,4 @@ This directory contains files for my alx shell variables and expansion projects
 
 - 101-rot13 is a script that encodes text using the rot13 encryption
 
-
+- 102-odd is a script that prints every other line from the input starting with the first line
