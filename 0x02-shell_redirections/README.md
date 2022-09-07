@@ -51,4 +51,7 @@ This directory contains script for the shell redirections alx project.
 
 - 100-empty_casks is a script that finds all empty files and directories in the current directory and all subdirectories
 
+- 102-acrostic is a script that decodes acrostics using the first letter of each line
+
+-
  
