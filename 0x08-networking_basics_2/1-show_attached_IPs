@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# This script displays all active IPv4 addresses
+
+ifconfig | grep -Eo 'inet [0-9.]+' | tr -d "inet "
