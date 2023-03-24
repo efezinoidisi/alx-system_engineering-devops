@@ -1,0 +1,5 @@
+Host client-config
+HostName 54.87.206.131
+User ubuntu
+IdentityFile ~/.ssh/school
+PasswordAuthentication no
