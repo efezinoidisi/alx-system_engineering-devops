@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 # This script creates an RSA key pair with the private key stored in the school file,
-ssh-keygen -b 4096 -t rsa -f ~/.ssh/school -N betty
+ssh-keygen -b 4096 -t rsa -f school -N betty
