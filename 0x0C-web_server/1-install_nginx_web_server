@@ -4,9 +4,5 @@
 sudo apt update
 sudo apt -y install nginx
 sudo ufw allow "Nginx HTTP"
-sudo echo "Hello World!" > /var/www/html/index.html
-if [[ $(pgrep nginx) ]]; then
-    sudo service nginx restart
-else
-    sudo service nginx start
-fi
+echo "Hello World!" > sudo tee /var/www/html/index.html
+sudo service nginx start
