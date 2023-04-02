@@ -4,11 +4,9 @@
 sudo apt-get update
 sudo apt-get -y install nginx
 sudo ufw allow 'Nginx HTTP'
-sudo chmod 755 /var/www/html -R
 echo "Hello World!" | sudo tee /var/www/html/index.html
 
-redirect="server_name _; 1\n rewrite ^/redirect_me$ https://javascript.info permanent;2\n"
-
+redirect="location \/redirect_me {\n\t\treturn 301 https:\/\/javascript.info;}\n"
 sed -i "s/server_name _;/$redirect/" /etc/nginx/sites-available/default
 
 service nginx restart
