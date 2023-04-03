@@ -11,11 +11,21 @@ echo "server {
      root /var/www/html;
      index index.html index.htm index.nginx-debian.html;
      server_name _;
-     location / {
-     	      add_header X-Served-By '$HOSTNAME'
-     	      try_files \$uri \$uri/ =404;
+
+     location /redirect_me {
+     	      return 301 https://javascript.info;
 	      }
+
+     location / {
+     	      try_files \$uri \$uri/ =404;
+	      add_header X-Served-By $HOSTNAME;
+     }
+     error_page 404 /error_page.html;
+     location = /error_page.html {
+     	      root /var/www/html;
+	      internal;
       }
-" | sudo tee /etc/nginx/sites-available/default
+}" | sudo tee /etc/nginx/sites-available/default
 echo "Hello World!" | sudo tee /var/www/html/index.html
+echo "Ceci n'est pas une page" | sudo tee /var/www/html/error_page.html
 sudo service nginx start
