@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# This is a script that installs and configures HAproxy on a new server
+
+sudo apt-get update
+sudo apt-get install haproxy -y
+echo "ENABLED=1" | sudo tee -a /etc/default/haproxy
+echo "
+frontend web
+	 bind *:80
+	 default_backend web_servers
+
+backend web_servers
+	balance roundrobin
+        server server1 52.3.251.35
+        server server2 34.204.95.177
+" | sudo tee -a /etc/haproxy/haproxy.cfg
+sudo service haproxy restart
