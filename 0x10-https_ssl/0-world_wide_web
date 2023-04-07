@@ -2,7 +2,7 @@
 # print information about a domain 
 
 info () {
-    dig web-02.holberton.online | awk -v name="$2" '/IN/{if (++n == 2)print "The subdomain " name " is a " $4 " record and points to " $5}'
+    dig "$2.$1" | awk -v name="$2" '/IN/{if (++n == 2)print "The subdomain " name " is a " $4 " record and points to " $5}'
 }
 
 if [ "$#" == 2 ]; then
