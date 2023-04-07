@@ -3,5 +3,5 @@
 
 sudo rm -rf /etc/nginx/sites-enabled
 # create symbolic link from sites-available to sites-enabled
-sudo ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled
+sudo ln -s /etc/nginx/sites-available/ /etc/nginx/sites-enabled
 sudo service nginx restart
