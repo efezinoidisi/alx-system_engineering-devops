@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# print information about a domain 
+
+info () {
+    dig web-02.holberton.online | awk -v name="$2" '/IN/{if (++n == 2)print "The subdomain " name " is a " $4 " record and points to " $5}'
+}
+
+if [ "$#" == 2 ]; then
+   info "$1" "$2"
+else
+    info "$1" "www"
+    info "$1" "lb-01"
+    info "$1" "web-01"
+    info "$1" "web-02"
+fi
