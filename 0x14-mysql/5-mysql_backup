@@ -5,4 +5,4 @@ password="$1"
 
 mysql -uroot -p"$password" -e "show databases;" | grep -Ev "Database|information_schema|performance_schema|mysql" | xargs mysqldump -uroot -p"$password" --databases > backup.sql
 
-tar -cvzf $(date +%d-%m-%Y).tar.gz backup.sql
+gzip -c backup.sql > $(date +%d-%m-%Y).tar.gz
