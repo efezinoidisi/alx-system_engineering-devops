@@ -19,7 +19,13 @@ _, id = argv
 
 def main():
     """get employee name and information about their todo list given the
-    employee id"""
+    employee id
+    First line: Employee EMPLOYEE_NAME is done with tasks(NUMBER_OF_DONE_TASKS/TOTAL_NUMBER_OF_TASKS):
+    EMPLOYEE_NAME: name of the employee
+    NUMBER_OF_DONE_TASKS: number of completed tasks
+    TOTAL_NUMBER_OF_TASKS: total number of tasks, which is the sum of completed and non-completed tasks
+    Second and N next lines display the title of completed tasks: TASK_TITLE (with 1 tabulation and 1 space before the TASK_TITLE)
+    """
     url = "https://jsonplaceholder.typicode.com/"
     todos = requests.get("{}users/{}/todos".format(url, id)).json()
     users = requests.get("{}users".format(url)).json()
