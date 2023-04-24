@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""This module contains a function that gets data from a REST API"""
+"""This module contains a function"""
 import requests
 from sys import argv
 _, id = argv
