@@ -19,8 +19,9 @@ def main():
         filename = "{}.csv".format(id)
         text = "{},{},{},{}".format(id, name, status, title)
         with open(filename, 'a') as f:
-            textwriter = csv.writer(f, delimiter=",",quotechar='"', quoting=csv.QUOTE_ALL)
-            textwriter.writerow([id,name,status,title])
+            textwriter = csv.writer(
+                f, delimiter=",", quotechar='"', quoting=csv.QUOTE_ALL)
+            textwriter.writerow([id, name, status, title])
 
 
 if __name__ == "__main__":
