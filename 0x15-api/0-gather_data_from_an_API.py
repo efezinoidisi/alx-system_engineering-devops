@@ -10,11 +10,7 @@ def main():
     _, id = argv
     url = "https://jsonplaceholder.typicode.com/"
     todos = requests.get("{}users/{}/todos".format(url, id)).json()
-    users = requests.get("{}users".format(url)).json()
-    user = {}
-    for item in users:
-        if item['id'] == int(id):
-            user.update(item)
+    user = requests.get("{}users/{}".format(url, id)).json()
     completed = filter(lambda x: x.get('completed'), todos)
     completed = [item for item in completed]
     text = "Employee {} is done with tasks({}/{}):".format(
