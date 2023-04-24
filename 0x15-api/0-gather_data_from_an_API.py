@@ -3,11 +3,12 @@
 
 import requests
 from sys import argv
-_, id = argv
+
 
 
 def main():
     """get and display information about an employee's todo list"""
+    _, id = argv
     url = "https://jsonplaceholder.typicode.com/"
     todos = requests.get("{}users/{}/todos".format(url, id)).json()
     users = requests.get("{}users".format(url)).json()
