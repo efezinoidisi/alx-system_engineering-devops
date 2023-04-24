@@ -1,6 +1,8 @@
 #!/usr/bin/python3
-"""This module contains a function that gets data from a REST API:
-'https://jsonplaceholder.typicode.com/'
+"""
+This module contains a function that gets data from a REST API:
+'https://jsonplaceholder.typicode.com/' and displays the details about the employee
+name and completed tasks
 """
 import requests
 from sys import argv
