@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""make requests to a REST API"""
+"""fetch data from a REST API"""
+
 import requests
 from sys import argv
 _, id = argv
@@ -24,5 +25,4 @@ def main():
 
 
 if __name__ == "__main__":
-    """excecute function if not imported"""
     main()
