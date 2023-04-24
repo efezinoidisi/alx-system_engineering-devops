@@ -3,7 +3,7 @@
 'https://jsonplaceholder.typicode.com/' and displays the details about the employee name and completed tasks
 
 
-
+it accepts an integer as a parameter, which is the employee ID
 """
 import requests
 from sys import argv
