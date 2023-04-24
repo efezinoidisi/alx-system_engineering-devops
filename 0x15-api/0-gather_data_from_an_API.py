@@ -5,7 +5,6 @@ import requests
 from sys import argv
 
 
-
 def main():
     """get and display information about an employee's todo list"""
     _, id = argv
