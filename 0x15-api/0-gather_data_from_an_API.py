@@ -43,4 +43,5 @@ def main():
 
 
 if __name__ == "__main__":
+    """excecute function if not imported"""
     main()
