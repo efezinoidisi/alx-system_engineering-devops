@@ -1,12 +1,9 @@
 #!/usr/bin/python3
 """fetch data from the Reddit API"""
 import requests
-from typing import List, Union
 
 
-def recurse(subreddit: str,
-            hot_list: List[str] = [],
-            after: str = "") -> Union[List[str], None]:
+def recurse(subreddit, hot_list=[], after= ""):
     """gets a list containing the title of all hot posts for a subreddit"""
     url = "https://www.reddit.com/r/{}/hot.json?after={}".format(
         subreddit, after)
